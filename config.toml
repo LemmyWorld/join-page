@@ -1,10 +1,10 @@
-baseURL = "https://example.com/"
+baseURL = "https://join.lemmy.world/"
 languageCode = "en-US"
 title = "Join Lemmy.World"
 # Enable comments by entering your Disqus shortname
-disqusShortname = ""
+# disqusShortname = ""
 # Enable Google Analytics by entering your tracking code
-googleAnalytics = ""
+googleAnalytics = "G-9555PS4FGD"
 theme = "hugo-sustain"
 
 [permalinks]
