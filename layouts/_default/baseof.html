@@ -5,7 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="{{ .Site.Params.Author }}">
-    <link rel="shortcut icon" type="image/x-icon" href="{{ .Site.BaseURL }}img/favicon.ico">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ .Site.BaseURL }}/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ .Site.BaseURL }}/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ .Site.BaseURL }}/icons/favicon-16x16.png">
+    <link rel="manifest" href="{{ .Site.BaseURL }}/icons/site.webmanifest">
+    <link rel="mask-icon" href="{{ .Site.BaseURL }}/icons/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="{{ .Site.BaseURL }}/icons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="{{ .Site.BaseURL }}/icons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
+
     <title>{{ if .IsHome }}{{ else }}{{ if .Title }}{{ .Title }} | {{ end }}{{ end }}{{ .Site.Title }}</title>
     <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ if .IsPage }}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
@@ -24,6 +35,17 @@
     {{- template "_internal/google_analytics_async.html" . }}
   </head>
   <body>
+
+    <style>
+        body {
+          background-image: url('{{ .Site.BaseURL }}/images/background.jpg');
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: cover;
+          background-position: center;
+        }
+    </style>
+
     <div id="content">
       {{- block "main" . }}{{- end }}
     </div>

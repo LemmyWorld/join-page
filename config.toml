@@ -33,20 +33,23 @@ Patreon ="https://patreon.com/mastodonworld"
 Donate = 'https://opencollective.com/mastodonworld'
 
 ## Main Menu
+
 [[menu.main]]
-  name = "Blog"
+  name = "💬 Discord"
   weight = 1
+  identifier = "legal"
+  url = "https://discord.gg/lemmyworld"
+
+[[menu.main]]
+  name = "📔 Blog"
+  weight = 2
   identifier = "blog"
   url = "https://blog.lemmy.world"
 
 [[menu.main]]
-  name = "Team"
-  weight = 2
-  identifier = "Team"
+  name = "🧑 Join our Team"
+  weight = 99
+  identifier = "team"
   url = "https://team.lemmy.world"
 
-[[menu.main]]
-  name = "legal"
-  weight = 100
-  identifier = "legal"
-  url = "https://legal.lemmy.world"
+
