@@ -32,7 +32,7 @@ html, body {
 .navbar .navbar-nav > li > a:focus,
 .navbar .navbar-text,
 .navbar-toggler {
-  color: #ffffff;
+  color: #6E9357;
 }
 
 .navbar-nav > .active > a,
@@ -41,7 +41,7 @@ html, body {
 .navbar-nav > .open > a,
 .navbar-nav > .open > a:hover,
 .navbar-nav > .open > a:focus {
-  color: #6b6b6b;
+  color: #2B90D9;
   background-color: #fff;
 }
 
@@ -56,18 +56,18 @@ html, body {
 
 @media (max-width: 767px) {
   .navbar-nav .open .dropdown-menu > li > a {
-    color: #6b6b6b;
+    color: #2B90D9;
   }
 
   .navbar-nav .open .dropdown-menu > li > a:hover,
   .navbar-nav .open .dropdown-menu > li > a:focus {
-    color: #6b6b6b;
+    color: #2B90D9;
   }
 
   .navbar-nav .open .dropdown-menu > .active > a,
   .navbar-nav .open .dropdown-menu > .active > a:hover,
   .navbar-nav .open .dropdown-menu > .active > a:focus {
-    color: #6b6b6b;
+    color: #2B90D9;
     background-color: #ffffff;
   }
 }
@@ -79,12 +79,13 @@ html, body {
 }
 
 .container a {
-  color: rgb(174, 174, 174);
+  color: #2B90D9;
   text-decoration: none;
 }
 
 .container a:hover {
-  color: #267723;
+  color: #535353;
+  animation:  1s ease 1s both;
 }
 
 .container p img,
@@ -137,7 +138,7 @@ h5 a:hover {
   padding: 0px;
   width: 100%;
   text-align: center;
-  animation: fade 1s ease 1s both;
+  animation: fade 0s ease 0s both;
 }
 
 .social-links li {
@@ -152,11 +153,11 @@ h5 a:hover {
   color: #ffffff;
   padding: 10px;
   padding-bottom: 4px;
-  transition: all .4s ease;
+  transition: all 0s ease;
 }
 
 .social-links li a:hover {
-  color: #585858;
+  color: #ffffff;
 }
 
 .avatar {
@@ -196,8 +197,8 @@ h5 a:hover {
 }
 
 /* Footer  */
-/* .footer {
-  border-bottom: 5px solid #000000;
+.footer {
+  border-bottom: 5px solid #2b2b2b;
   padding: 20px 0;
   text-decoration: none !important;
-} */
+}
