@@ -11,9 +11,8 @@ theme = "hugo-sustain"
   post = "/:year/:month/:day/:slug"
 
 [params]
-  avatar = "/images/favicon.png"
   author = "Lemmy World"
-  description = "Join Lemmy.World"
+  description = "Come for the memes, stay for the community"
 
   # Custom assets can be linked with their paths relative to static/
   custom_css = ["/main.css"]
