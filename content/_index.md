@@ -2,11 +2,11 @@
 ---
 # Welcome to Lemmy.World 🖐
 
-Thanks for looking us up 💗
+Social Media for Humans 💗
 
-A general-purpose Lemmy instance, for the entire world to use.
+*Come for the memes, stay for the community*
 
-[👉 Click here to check us out 👈](https://p.lemmy.world/?type=Local)
+[👉 Click here to browse 👈](https://p.lemmy.world/?type=Local)
 
 [📱Mobile Site📱](https://m.lemmy.world/posts/lemmy.world/local)
 
@@ -17,5 +17,3 @@ A general-purpose Lemmy instance, for the entire world to use.
 {{< rawhtml >}}
 <a href='https://apps.apple.com/us/app/memmy-for-lemmy/id6450204299'><img alt='Get it on Google Play' src='https://developer.apple.com/news/images/download-on-the-app-store-badge.png' width="128" height="43"/></a>
 {{< /rawhtml >}}
-
-Check out the links below for other neat services we provide.
