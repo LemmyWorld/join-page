@@ -19,36 +19,34 @@ theme = "hugo-sustain"
   custom_js  = []
 
 [params.social]
-  Mastodon       = "https://mastodon.world/@LemmyWorld"
+  # Mastodon       = "https://mastodon.world/@LemmyWorld"
   Github        = "LemmyWorld"
-  Discord = "https://discord.gg/lemmyworld"
-  Matrix = "https://matrix.to/#/#lemmyworld:h-y-p-e-r.space"
+  # Discord = "https://discord.gg/lemmyworld"
+  # Matrix = "https://matrix.to/#/#general:lemmy.world"
   # Email         = "info@lemmy.world"
   LinkedIn      = "https://www.linkedin.com/company/lemmyworld/"
   Minecraft = "http://map.minecraft.lemmy.world/"
-  GooglePlay = "https://play.google.com/store/apps/details?id=io.syncapps.lemmy_sync"
-  Apple = "https://apps.apple.com/us/app/memmy-for-lemmy/id6450204299"
+  # GooglePlay = "https://play.google.com/store/apps/details?id=io.syncapps.lemmy_sync"
+  # Apple = "https://apps.apple.com/us/app/memmy-for-lemmy/id6450204299"
 Patreon ="https://patreon.com/mastodonworld"
 Donate = 'https://opencollective.com/mastodonworld'
 
 ## Main Menu
 
 [[menu.main]]
-  name = "💬 Discord"
-  weight = 1
-  identifier = "legal"
-  url = "https://discord.gg/lemmyworld"
-
-[[menu.main]]
   name = "📔 Blog"
-  weight = 2
+  weight = 1
   identifier = "blog"
   url = "https://blog.lemmy.world"
 
 [[menu.main]]
+  name = "🖥 Page Status"
+  weight = 2
+  identifier = "uptime"
+  url = "https://dash.lemmy.world"
+
+[[menu.main]]
   name = "🧑 Join our Team"
-  weight = 99
+  weight = 98
   identifier = "team"
   url = "https://team.lemmy.world"
-
-
