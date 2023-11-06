@@ -27,3 +27,5 @@ Social Media for Humans 💗
 [![Discord](https://img.shields.io/discord/1120387349864534107?style=flat-square&logo=discord&color=565EAE)](https://discord.gg/lemmyworld)
 
 [![Matrix](https://img.shields.io/matrix/lemmy.world_general%3Amatrix.org?style=flat-square&logo=matrix&color=blue)](https://matrix.to/#/#general:lemmy.world)
+
+[![Fediseer](https://fediseer.com/api/v1/badges/endorsements/lemmy.world.svg)](https://gui.fediseer.com/instances/detail/lemmy.world)
