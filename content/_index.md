@@ -21,6 +21,8 @@ Social Media for Humans 💗
 
 [![Open Collective backers and sponsors](https://img.shields.io/opencollective/all/mastodonworld?style=flat-square&logo=opencollective&color=7FADF2)](https://opencollective.com/mastodonworld)
 
+[![Patreon](https://img.shields.io/badge/Patreon-MastodonWorld-green?style=flat-square&amp;logo=patreon&amp;color=lightblue)](https://patreon.com/mastodonworld)
+
 [![Mastodon Follow](https://img.shields.io/mastodon/follow/110952393950540579?domain=https%3A%2F%2Fmastodon.world&style=flat-square&logo=mastodon&color=6364FF)](https://mastodon.world/@LemmyWorld)
 
 [![Discord](https://img.shields.io/discord/1120387349864534107?style=flat-square&logo=discord&color=565EAE)](https://discord.gg/lemmyworld)
